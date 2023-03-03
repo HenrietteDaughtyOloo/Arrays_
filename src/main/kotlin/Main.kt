@@ -35,8 +35,10 @@ fun element(){
 
             var index = numbers.indexOf(158)
             println(index)
+            numbers.sorted()
+            println("When Sorted Ascending: ${numbers.sortedArray().contentToString()}")
 
-            println("Sorted ascending: ${numbers.sorted()}")
+            /*println("Sorted ascending: ${numbers.sorted()}")*/
 
 }
 
@@ -44,5 +46,7 @@ fun element(){
              all 3 names.*/
 fun rtnThree(a:String, b:String, c:String): String {
         var nameList= arrayOf(a,b,c,)
+                /*return nameList.sortedArray().contentToString()*/
+
                 return (nameList.contentToString())
 }
